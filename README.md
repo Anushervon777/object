@@ -27,3 +27,21 @@ const person = {
   }
 };
 ```
+# Object keys
++ **Статический Object.keys()метод возвращает массив собственных перечислимых имен свойств заданного объекта, имеющих строковый ключ.**
+```javascript
+const object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false,
+};
+
+console.log(Object.keys(object1));
+// Expected output: Array ["a", "b", "c"]
+```
+**Доступ к свойствам объекта**
+Вы можете получить доступ к свойствам объекта, используя точечную нотацию или квадратные скобки:
+```
+console.log(person.name); // Точечная нотация
+console.log(person["age"]); // Квадратные скобки
+```
