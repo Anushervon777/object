@@ -45,4 +45,5 @@ console.log(Object.keys(object1));
 console.log(person.name); // Точечная нотация
 console.log(person["age"]); // Квадратные скобки
 ```
+![](https://marketplace.canva.com/EAFGH7TQKS8/3/0/1600w/canva-thank-you-card-uMCuw9XtkYc.jpg)
 
